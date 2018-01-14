@@ -1,0 +1,4 @@
+Command:
+C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avrdude.exe
+Arguments:
+-C"C:\Program Files (x86)\Arduino\hardware\tools\avr/etc/avrdude.conf" -v -v -patmega328p -carduino -PCOM8 -b115200 -D -Uflash:w:"$(ProjectDir)Debug\$(TargetName).hex":i
